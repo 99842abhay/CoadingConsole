@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodingConsole.Array
+namespace CodingConsole.Arrays
 {
     public class PlusOneCode
     {
@@ -22,7 +22,7 @@ namespace CodingConsole.Array
          Incrementing by one gives 9 + 1 = 10.
          Thus, the result should be [1,0].
         */
-        public int[] PlusOne(int[] digits)
+        public static int[] PlusOne(int[] digits)
         {
             int n = digits.Length;  
 
