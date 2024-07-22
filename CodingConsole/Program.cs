@@ -51,13 +51,13 @@ namespace CodingConsole
             //int res = RemoveElementCode.RemoveElement(arr, 2);
             //Console.WriteLine(res);
 
-            //int[] arr1 = { 1, 2, 3, 4 };
-            //int[] arr2 = { 3, 4 };
-            //int[] res = IntersectionCode.Intersection(arr1, arr2);
-            //foreach (int i in res)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            int[] arr1 = { 1, 2, 3, 4 };
+            int[] arr2 = { 3, 4 };
+            int[] res = IntersectionCode.Intersection(arr1, arr2);
+            foreach (int i in res)
+            {
+                Console.WriteLine(i);
+            }
 
             //string[] str = { "bella", "label", "roller" };
             //var res = CommonCharsCode.CommonChars(str);
@@ -83,6 +83,15 @@ namespace CodingConsole
             //{
             //    Console.WriteLine(item);
             //}
+
+            //int[] nums = { 7, 15, 11, 3 };
+            //int target = 9;
+            //int[] result = TwoSumCode.TwoSum(nums, target);
+            //Console.WriteLine("Output: [" + string.Join(", ", result) + "]");
+
+            //string[] word1_1 = { "ab", "c" };
+            //string[] word2_1 = { "a", "bc" };
+            //Console.WriteLine(CompareStringArrayCode.CompareArrayString1(word1_1, word2_1));
             #endregion
 
             #region Algo 
